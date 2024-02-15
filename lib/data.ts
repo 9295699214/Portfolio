@@ -107,5 +107,4 @@ export const skillsData = [
   "Express",
   "PostgreSQL",
   "Python",
-  "Framer Motion",
 ] as const;
