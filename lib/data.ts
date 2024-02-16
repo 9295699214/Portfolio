@@ -36,28 +36,31 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Developer",
+    title: "Intern",
     location: "Panchkula, India",
+    company: "DigiSpice Pvt. Ltd",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "After I graduated and Interned as a frontend developer, specializing in Angular and JavaScript, responsible for creating dynamic pages and enhancing UI experiences.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "May 2018 - Feb 2019",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Pune, India",
+    company: "Tata Consultancy Services",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Skilled frontend developer proficient in Angular, creating cross-platform applications for seamless user experiences through reusable modules and comprehensive testing.",
+    icon: React.createElement(FaReact),
+    date: "March 2019 - Oct 2020",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Developer",
+    location: "Panchkula, India",
+    company: "Grazitti Interative",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Experienced software developer proficient in custom solutions and data analysis, leveraging tools like IntelliJ and Visual Studio to deliver tailored applications for improved business performance.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Nov 2020 - Aug 2022",
   },
 ] as const;
 
