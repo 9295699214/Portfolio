@@ -25,9 +25,9 @@ export default function About() {
         Python, TypeScript, Prisma, and Zod. Eager to stay ahead of the curve, I actively seek opportunities to learn new 
         technologies. 
         </p>
-        <p>Currently pursuing an <span className="italic">M.A. in Computer Science at Brooklyn College</span>. Now, I'm eagerly seeking 
+        <p>Currently pursuing an <span className="italic">M.A. in Computer Science at Brooklyn College</span>. Now, I&apos;m eagerly seeking 
         a  <span className="font-medium">full-time software developer position</span> where I can continue to grow and contribute.
-        I'm equally committed to teaching <span className="font-medium">Java</span> and excelling in administrative roles. 
+        I&apos;m equally committed to teaching <span className="font-medium">Java</span> and excelling in administrative roles. 
         Outside of work and studies, I find joy in hitting the gym, watching movies, and exploring new places. </p>
     </motion.section>
   );
