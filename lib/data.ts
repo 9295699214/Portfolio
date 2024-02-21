@@ -1,10 +1,10 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import cuwipImg from "@/public/cuwip.png";
-import stemcelImg from "@/public/stemcel.png";
-import suarezImg from "@/public/suarez.png";
+import jetblueImg from '../public/jetblueImg.png';
+
+import searchunifyImg from '../public/searchunifyImg.png';
 import geartrackImg from "@/public/geartrack.png";
 
 export const links = [
@@ -66,6 +66,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Search Unify",
+    description:
+      "SearchUnify is a robust AI-driven enterprise search platform designed to optimize knowledge management and support workflows, facilitating efficient information retrieval and enhancing user experiences",
+    tags: ["Javascript", "React", "Node JS", "Salesforce Permissions", "customized software solutions"],
+    imageUrl: searchunifyImg,
+  },
+  {
+    title: "JetBlue Airlines",
+    description:
+      "Igor Operations at JetBlue Airlines streamline flight operations and improve efficiency through advanced technology solutions, ensuring smoother and more reliable air travel experiences for passengers.",
+      tags: ["Angular", "Javascript", "Git", "Validating Inputs", "Responsive Design"],
+    imageUrl: jetblueImg,
+  },
+  {
     title: "Gear Tracking",
     description:
       "Developed a vehicle tracking website with robust permissions, secure authentication, QR scanner integration for gear tracking, and PostgreSQL database management.",
@@ -78,20 +92,6 @@ export const projectsData = [
       "Explore CUNY CUWiP 2024, the official hub for the Conference for Undergraduate Women in Physics, featuring schedules, speakers, workshops, and registration.",
     tags: ["Custom Templates", "Google Sites", "Responsive Design"],
     imageUrl: cuwipImg,
-  },
-  {
-    title: "The Suarez Lab",
-    description:
-      "Discover The Suarez Lab's innovative WordPress website, showcasing cutting-edge research, publications, team members",
-    tags: ["Wordpress", "Custome Themes", "Team Member Profiles", "Contact Form", "Responsive Design"],
-    imageUrl: suarezImg,
-  },
-  {
-    title: "Stemcel",
-    description:
-      "Explore the forefront of research and academic excellence in STEM fields with the Brooklyn College Biology Department.",
-      tags: ["Wordpress", "Custome Themes", "Team Member Profiles", "Contact Form", "Responsive Design"],
-    imageUrl: stemcelImg,
   },
 ] as const;
 

@@ -18,17 +18,20 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className='mb-4'>
-        After graduating with a degree in <span className="font-medium">Computer Science</span>, I immediately immersed 
-        myself in real-world projects,driven by my passion for <span className="italic">problem-solving</span>. 
-        My core stack is <span className="font-medium">React, Next.js, Node.js and Postgres</span>. I am also familiar with 
-        Python, TypeScript, Prisma, and Zod. Eager to stay ahead of the curve, I actively seek opportunities to learn new 
-        technologies. 
-        </p>
-        <p>Currently pursuing an <span className="italic">M.A. in Computer Science at Brooklyn College</span>. Now, I&apos;m eagerly seeking 
-        a  <span className="font-medium">full-time software developer position</span> where I can continue to grow and contribute.
-        I&apos;m equally committed to teaching <span className="font-medium">Java</span> and excelling in administrative roles. 
-        Outside of work and studies, I find joy in hitting the gym, watching movies, and exploring new places. </p>
+        <p className='mb-4'>Driven by a passion for crafting solutions, I dived headfirst into real-world projects after graduating 
+        with my <span className="font-medium">Computer Science degree</span> .Fueled by a thirst for knowledge, I honed my skills in the 
+        dynamic web development stack of <span className="font-medium">React, Next.js, Node.js, and Postgres</span>. 
+        While I&apos;m comfortable navigating these core tools, I&apos;m always expanding my horizons, exploring frameworks like 
+        <span className="font-medium"> Python, TypeScript, Prisma, and Zod</span>. 
+        Never content with the status quo, I actively seek new challenges and technologies to master.</p>
+
+       <p>Currently, I&apos;m enriching my knowledge by pursuing an <span className="italic">M.A. in Computer Science at Brooklyn College</span>. 
+       This pursuit fuels my desire to contribute meaningfully to a challenging full-time software developer role. 
+       Beyond coding, I thrive in collaborative environments, evidenced by my dedication to teaching 
+       <span className="font-medium">Java</span> and excelling in <span className="font-medium">administrative</span> tasks.
+
+       When I&apos;m not immersed in code or studies, I find balance in hitting the gym, exploring new films, and discovering hidden gems around town.</p>
+
     </motion.section>
   );
 }
